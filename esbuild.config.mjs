@@ -19,6 +19,8 @@ esbuild.build({
 	bundle: true,
 	external: [
 		'obsidian',
+		// '@notionhq/client',
+		// 'dotenv',
 		'electron',
 		'@codemirror/autocomplete',
 		'@codemirror/closebrackets',
